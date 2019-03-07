@@ -18,7 +18,6 @@ mark{
 img{
   max-height:30%;
   max-width:30%;
-  filter: invert(100%);
 }
 body,
 html {
