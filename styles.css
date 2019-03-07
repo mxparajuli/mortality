@@ -36,16 +36,16 @@ body {
   display: -webkit-flex;
 }
 
-.nightmode {
+.night {
     background-color: black;
     color: white;
 }
 
-.nightmode img {
+.night img {
   filter: invert(100%)
 }
 
-.nightmode .count {
+.night .count {
   color: #fff;
 }
 
