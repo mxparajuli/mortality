@@ -32,3 +32,20 @@ startMortality();
 document.getElementById('myLabel').innerHTML = "Your age is...";
 document.getElementById('footer').innerHTML = "Recreated with love by Matt Fan";
 /* So that if js takes too long to load, only thing on screen is existential placeholder*/
+
+var imageURLs = [
+  'img/astronaut.gif',
+	'img/brb.gif',
+	'img/doggy.gif',
+	'img/dreamydragon.gif',
+	'img/emojiwalk.gif',
+	'img/sharkbate.gif',
+	'img/working.gif'
+ ];
+function getImageTag() {
+  var img = '<img src=\"';
+  var randomIndex = Math.floor(Math.random() * imageURLs.length);
+  img += imageURLs[randomIndex];
+  img += '\" alt=\"Some alt text\"/>';
+  return img;
+}
