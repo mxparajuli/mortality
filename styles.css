@@ -18,6 +18,7 @@ mark{
 img{
   max-height:30%;
   max-width:30%;
+  filter: invert(100%);
 }
 body,
 html {
@@ -34,6 +35,8 @@ body {
   -webkit-justify-content: center;
   font-family: 'Roboto Mono', monospace;
   display: -webkit-flex;
+  background-color: black;
+  color: white;
 }
 
 .age-label {
@@ -44,7 +47,7 @@ body {
 }
 
 .count {
-  color: #494949;
+  color: #fff; //#494949;
   margin: 0;
   font-size: 6rem;
   line-height: 1;
