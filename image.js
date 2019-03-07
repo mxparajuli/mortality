@@ -4,7 +4,7 @@ var myPix = new Array("img/brb.gif",
                       //"img/dreamydragon.gif",
                       //"img/emojiwalk.gif",
                       "img/astronaut.gif",
-                      "img/working.gif",
+                      "img/working.gif");
                       //"img/doggy.gif");
 
 function choosePic() {
