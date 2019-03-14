@@ -30,5 +30,4 @@ function startMortality() {
 startMortality();
 //onload, populate auxiliary elements
 document.getElementById('myLabel').innerHTML = "Your age is...";
-document.getElementById('footer').innerHTML = "Recreated with love by Matt Fan";
 /* So that if js takes too long to load, only thing on screen is existential placeholder*/
